@@ -1,0 +1,11 @@
+<div class="test">
+	测试{{num}}<br />
+	<button ng-click="add()">添加</button>
+	<button ng-click="sendget()">发送get</button>
+	<button ng-click="sendpost()">发送post</button>
+	<button ng-click="sendput()">发送put</button>
+	
+	<ul>
+		<li ng-repeat="item in testList track by $index">{{item}}</li>
+	</ul>
+</div>
